@@ -5,6 +5,7 @@ export const content: Translations = {
     nav: {
       home: 'الرئيسية',
       menu: 'قائمة الطعام',
+      allergens: 'الحساسية',
       contact: 'تواصل معنا',
       language_switch: 'Eng',
     },
