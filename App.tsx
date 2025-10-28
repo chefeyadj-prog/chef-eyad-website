@@ -7,6 +7,7 @@ import Info from './components/Info';
 import Footer from './components/Footer';
 import { content } from './constants/translations';
 import type { Language } from './types';
+import Allergens from './components/Allergens';
 
 const App: React.FC = () => {
   const [language, setLanguage] = useState<Language>('ar');
