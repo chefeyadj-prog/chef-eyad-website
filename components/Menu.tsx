@@ -5,6 +5,17 @@ interface MenuProps {
   content: {
     title: string;
     categories: MenuCategory[];
+    allergens: {
+      title: string;
+      content: string;
+      list_title?: string;
+      list?: string[];
+      calorieGuide?: {
+        title: string;
+        categories: CalorieGuideCategory[];
+      };
+      exerciseGuide?: ExerciseGuide;
+    };
   };
 }
 
