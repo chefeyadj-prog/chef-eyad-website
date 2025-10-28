@@ -45,11 +45,15 @@ const Header: React.FC<HeaderProps> = ({ nav, language, toggleLanguage }) => {
           <a href="#home" onClick={handleNavClick} className="hover:text-amber-500 transition-colors">
             {nav.home}
           </a>
-          <span className="mx-6 text-slate-500">|</span>
+          <span className="mx-4 text-slate-500">|</span>
           <a href="#menu" onClick={handleNavClick} className="hover:text-amber-500 transition-colors">
             {nav.menu}
           </a>
-          <span className="mx-6 text-slate-500">|</span>
+          <span className="mx-4 text-slate-500">|</span>
+           <a href="#allergens" onClick={handleNavClick} className="hover:text-amber-500 transition-colors">
+            {nav.allergens}
+          </a>
+          <span className="mx-4 text-slate-500">|</span>
           <a href="#info" onClick={handleNavClick} className="hover:text-amber-500 transition-colors">
             {nav.contact}
           </a>
