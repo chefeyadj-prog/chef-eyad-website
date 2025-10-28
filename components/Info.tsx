@@ -7,6 +7,7 @@ interface InfoProps {
     hours_note?: string;
     location_title: string;
     location: string;
+    follow_us_title: string;
   };
 }
 
