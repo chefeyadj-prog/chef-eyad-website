@@ -121,6 +121,75 @@ export const content: Translations = {
           ],
         },
       ],
+        allergens: {
+      title: 'مسببات الحساسية والسعرات الحرارية',
+      content: 'يرجى التحدث مع أحد موظفينا إذا كان لديك أي حساسية. عدد السعرات الحرارية هو تقديري وقد يختلف.',
+      list_title: 'قد تحتوي بعض الاصناف على مسببات الحساسية',
+      list: [
+        '🥛 الحليب ومشتقاته',
+        '🥚 البيض',
+        '🌾 القمح (الغلوتين)',
+        '🥜 الفول السوداني',
+        '🌰 المكسرات',
+        '🦐 المأكولات البحرية',
+        '🍤 المحار',
+        '🫘 الصويا',
+        '🌿 الخردل',
+        '🍞 السمسم',
+      ],
+      calorieGuide: {
+        title: 'الدليل اليومي المرجعي للسعرات الحرارية',
+        categories: [
+          {
+            title: 'الرجال',
+            items: [
+              { level: 'قليل الحركة (مكتبي)', calories: '2,000 – 2,400' },
+              { level: 'معتدل النشاط', calories: '2,400 – 2,800' },
+              { level: 'عالي النشاط (عمل شاق)', calories: '2,800 – 3,000+' },
+            ],
+          },
+          {
+            title: 'النساء',
+            items: [
+              { level: 'قليلة الحركة', calories: '1,600 – 1,800' },
+              { level: 'معتدلة النشاط', calories: '1,800 – 2,200' },
+              { level: 'عالية النشاط', calories: '2,200 – 2,400+' },
+            ],
+          },
+          {
+            title: 'الأطفال (4-12 سنة)',
+            items: [
+              { level: 'الأولاد', calories: '1,400 – 2,200' },
+              { level: 'البنات', calories: '1,200 – 2,000' },
+            ],
+          },
+        ],
+      },
+      exerciseGuide: {
+        title: 'حرق السعرات الحرارية لكل نوع من التمارين (نصف ساعة)',
+        items: [
+          { activity: '🚶‍♂️ المشي البطيء (4 كم/س)', calories: '100' },
+          { activity: '🚶‍♀️ المشي السريع (6 كم/س)', calories: '150' },
+          { activity: '🏃‍♂️ الجري الخفيف (8 كم/س)', calories: '300' },
+          { activity: '🏃‍♀️ الجري السريع (10–12 كم/س)', calories: '400–500' },
+          { activity: '🚴‍♂️ ركوب الدراجة ببطء', calories: '200' },
+          { activity: '🚴‍♀️ ركوب الدراجة بسرعة', calories: '350–450' },
+          { activity: '🏊‍♂️ السباحة الهادئة', calories: '250' },
+          { activity: '🏊‍♀️ السباحة المكثفة', calories: '400–500' },
+          { activity: '🧘‍♀️ اليوغا', calories: '100' },
+          { activity: '🤸‍♂️ التمارين الهوائية', calories: '250–350' },
+          { activity: '🏋️‍♀️ تمارين المقاومة (أوزان)', calories: '180–250' },
+          { activity: '🥊 الملاكمة', calories: '400–500' },
+          { activity: '⚽ كرة القدم', calories: '350–450' },
+          { activity: '🏀 كرة السلة', calories: '300–400' },
+          { activity: '🎾 التنس', calories: '250–350' },
+          { activity: '⛹️‍♂️ القفز بالحبل', calories: '350–500' },
+          { activity: '🧹 تنظيف المنزل', calories: '120' },
+          { activity: '🚶‍♂️ صعود الدرج', calories: '300' },
+          { activity: '🧗‍♂️ تسلق الصخور', calories: '400–600' },
+        ],
+      },
+    },
     info: {
       hours_title: 'ساعات العمل',
       hours: [
@@ -141,6 +210,7 @@ export const content: Translations = {
     nav: {
       home: 'Home',
       menu: 'Menu',
+      allergens: 'Allergens',
       contact: 'Contact',
       language_switch: 'العربية',
     },
@@ -278,6 +348,75 @@ export const content: Translations = {
     },
   ],
 },
+    allergens: {
+      title: 'Allergens & Calories',
+      content: 'Please speak to a member of our staff if you have any allergies. Calorie counts are estimates and may vary.',
+      list_title: 'Some dishes may contain the following allergens',
+      list: [
+        '🥛 Milk & dairy',
+        '🥚 Eggs',
+        '🌾 Wheat (Gluten)',
+        '🥜 Peanuts',
+        '🌰 Nuts',
+        '🦐 Seafood',
+        '🍤 Shellfish',
+        '🫘 Soy',
+        '🌿 Mustard',
+        '🍞 Sesame',
+      ],
+      calorieGuide: {
+        title: 'Daily Calorie Reference Guide',
+        categories: [
+          {
+            title: 'Men',
+            items: [
+              { level: 'Sedentary (office work)', calories: '2,000 – 2,400' },
+              { level: 'Moderately Active', calories: '2,400 – 2,800' },
+              { level: 'Highly Active (hard labor)', calories: '2,800 – 3,000+' },
+            ],
+          },
+          {
+            title: 'Women',
+            items: [
+              { level: 'Sedentary', calories: '1,600 – 1,800' },
+              { level: 'Moderately Active', calories: '1,800 – 2,200' },
+              { level: 'Highly Active', calories: '2,200 – 2,400+' },
+            ],
+          },
+          {
+            title: 'Children (4-12 years)',
+            items: [
+              { level: 'Boys', calories: '1,400 – 2,200' },
+              { level: 'Girls', calories: '1,200 – 2,000' },
+            ],
+          },
+        ],
+      },
+      exerciseGuide: {
+        title: 'Calories Burned Per Exercise Type (30 minutes)',
+        items: [
+          { activity: '🚶‍♂️ Slow Walking (4 km/h)', calories: '100' },
+          { activity: '🚶‍♀️ Brisk Walking (6 km/h)', calories: '150' },
+          { activity: '🏃‍♂️ Light Jogging (8 km/h)', calories: '300' },
+          { activity: '🏃‍♀️ Fast Running (10–12 km/h)', calories: '400–500' },
+          { activity: '🚴‍♂️ Slow Cycling', calories: '200' },
+          { activity: '🚴‍♀️ Fast Cycling', calories: '350–450' },
+          { activity: '🏊‍♂️ Leisurely Swimming', calories: '250' },
+          { activity: '🏊‍♀️ Intense Swimming', calories: '400–500' },
+          { activity: '🧘‍♀️ Yoga', calories: '100' },
+          { activity: '🤸‍♂️ Aerobics', calories: '250–350' },
+          { activity: '🏋️‍♀️ Resistance Training (weights)', calories: '180–250' },
+          { activity: '🥊 Boxing', calories: '400–500' },
+          { activity: '⚽ Soccer', calories: '350–450' },
+          { activity: '🏀 Basketball', calories: '300–400' },
+          { activity: '🎾 Tennis', calories: '250–350' },
+          { activity: '⛹️‍♂️ Jump Rope', calories: '350–500' },
+          { activity: '🧹 House Cleaning', calories: '120' },
+          { activity: '🚶‍♂️ Climbing Stairs', calories: '300' },
+          { activity: '🧗‍♂️ Rock Climbing', calories: '400–600' },
+        ],
+      },
+    },
 
     info: {
       hours_title: 'Working Hours',
