@@ -14,10 +14,40 @@ export interface MenuCategory {
   items: MenuItem[];
 }
 
+export interface CalorieGuideItem {
+  level: string;
+  calories: string;
+}
+
+export interface CalorieGuideCategory {
+  title: string;
+  items: CalorieGuideItem[];
+}
+
+export interface ExerciseGuideItem {
+  activity: string;
+  calories: string;
+}
+
+export interface AllergensContent {
+  title: string;
+  content: string;
+  list_title: string;
+  list: string[];
+  calorieGuide: {
+    title: string;
+    categories: CalorieGuideCategory[];
+  };
+  exerciseGuide: {
+    title: string;
+    items: ExerciseGuideItem[];
+  };
+}
 export interface Content {
   nav: {
     home: string;
     menu: string;
+    allergens: string;
     contact: string;
     language_switch: string;
   };
@@ -30,6 +60,7 @@ export interface Content {
     title: string;
     categories: MenuCategory[];
   };
+  allergens: AllergensContent;
   info: {
     hours_title: string;
     hours: string[];
