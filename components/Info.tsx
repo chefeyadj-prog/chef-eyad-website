@@ -44,6 +44,22 @@ const Info: React.FC<InfoProps> = ({ content }) => {
                 <p className="text-base">{content.hours_note}</p>
               </div>
             )}
+            <div className="mt-10">
+              <h4 className="text-2xl font-display font-bold text-amber-500 mb-4">
+                {content.follow_us_title}
+              </h4>
+              <div className="flex justify-center md:justify-start items-center gap-x-6">
+                <a href="https://www.instagram.com/chefeyad.jeddah/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:scale-110 transition-transform">
+                  <img src="https://res.cloudinary.com/drredhvtd/image/upload/v1761617972/Untitled-1_lrmmil.png" alt="Instagram" className="h-12 w-12" />
+                </a>
+                <a href="https://www.tiktok.com/@chefeyadjeddah" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="hover:scale-110 transition-transform">
+                  <img src="https://res.cloudinary.com/drredhvtd/image/upload/v1761618269/pngwing.com_rotzz4.png" alt="TikTok" className="h-12 w-12" />
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=9660552218833" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:scale-110 transition-transform">
+                  <img src="https://res.cloudinary.com/drredhvtd/image/upload/v1761618810/27-273312_whatsapp-png-transparent-png_jp4317.png" alt="WhatsApp" className="h-12 w-12" />
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* الموقع */}
