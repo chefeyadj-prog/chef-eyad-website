@@ -129,9 +129,10 @@ export const content: Translations = {
       hours_note: 'كما نود التنويه بأنه في حال انتهاء كمية اللحم يتم إغلاق المطعم مبكرًا، وسيتم إشعاركم فورًا عبر حساباتنا في وسائل التواصل الاجتماعي.',
       location_title: 'موقعنا',
       location: 'الامير سلطان، الزهراء، جدة 23424',
+      follow_us_title: 'تابعنا على',
     },
     footer: {
-      social_title: 'تابعنا',
+      social_title: 'الموقع',
       rights_reserved: 'جميع الحقوق محفوظة © ٢٠٢٤',
     },
   },
