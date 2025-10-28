@@ -5,6 +5,7 @@ interface HeaderProps {
   nav: {
     home: string;
     menu: string;
+    allergens: string;
     contact: string;
     language_switch: string;
   };
